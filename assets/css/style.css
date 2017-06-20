@@ -272,17 +272,13 @@ input[type=submit] {
     }
 }*/
 
-
-}
 @media screen and (max-width:768px) {
     #logo {
         margin-left: 20px;
     }
-    
     nav {
         margin-right: 20px;
     }
-    
     .main-section {
         float: none;
         width: 95%;
@@ -291,7 +287,6 @@ input[type=submit] {
         margin: 0 auto;
         margin-top: 10px;
     }
-    
     .sidebar {
         float: none;
         width: 100%;
@@ -302,22 +297,20 @@ input[type=submit] {
         margin-top: 20px;
     }
 }
+
 @media screen and (max-width:640px) {
     #logo {
         width: 100%;
     }
-    
     nav {
         width: 100%;
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    
     .auth-image {
         width: 100%;
         margin: 0 auto;
     }
-    
     .main-section {
         float: none;
         width: 90%;
@@ -326,7 +319,6 @@ input[type=submit] {
         margin: 0 auto;
         margin-top: 30px;
     }
-    
     .sidebar {
         float: none;
         width: 100%;
