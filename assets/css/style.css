@@ -246,8 +246,37 @@ input[type=submit] {
 }
 
 @media screen and (max-width:980px) {
+    #logo {
+        margin-left: 100px;
+    }
     nav {
-        margin-right: 30px;
+        margin-right: 50px;
+    }
+    .auth-image {
+        width: 400px;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+    .main-section {
+        width: 90%;
+        max-width: 50%;
+        padding: 30px;
+        margin: 100px;
+        margin-top: 25px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }
+    .sidebar {
+        float: right;
+        width: 100%;
+        max-width: 270px;
+        padding: 30px;
+        margin-right: 40px;
+        margin-top: 25px;
+    }
+    .work {
+        float: left;
+        width: 100%;
     }
 }
 
@@ -264,7 +293,7 @@ input[type=submit] {
         max-width: 95%;
         padding: 30px;
         margin: 0 auto;
-        margin-top: 10px;
+        margin-top: 0px;
     }
     .sidebar {
         float: none;
@@ -272,8 +301,19 @@ input[type=submit] {
         max-width: 95%;
         padding: 30px;
         margin: 0 auto;
-        margin-bottom: 20px;
-        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    #projects {
+        float: none;
+        /*width: 100%;*/
+        margin: 0 auto;
+        margin-top: 40px;
+        overflow: auto;
+    }
+    .work {
+        float: left;
+        width: 47%;
     }
 }
 
@@ -283,17 +323,24 @@ input[type=submit] {
         margin: 0 auto;
     }
     nav {
-        width: 69%;
-        /*max-width: 95%;*/
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        margin: 0 auto;
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+    nav a {
+        display: inline-block;
+        margin-left: 0;
+        padding-right: 15px;
     }
     .auth-image {
         width: 100%;
         margin: 0 auto;
+        padding-bottom: 15px;
     }
     .main-section {
-        float: none;
         width: 90%;
         max-width: 90%;
         padding: 30px;
@@ -301,12 +348,24 @@ input[type=submit] {
         margin-top: 30px;
     }
     .sidebar {
-        float: none;
         width: 100%;
         max-width: 90%;
         padding: 30px;
         margin: 0 auto;
         margin-bottom: 20px;
         margin-top: 20px;
+    }
+    #projects {
+        float: none;
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 40px;
+        overflow: auto;
+    }
+    .work {
+        float: left;
+        width: 100%;
+        margin: 0 auto;
+        overflow: auto;
     }
 }
