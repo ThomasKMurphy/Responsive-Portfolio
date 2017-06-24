@@ -310,7 +310,6 @@ input[type=submit] {
     }
     #projects {
         float: none;
-        /*width: 100%;*/
         margin: 0 auto;
         margin-top: 40px;
         overflow: auto;
@@ -358,13 +357,6 @@ input[type=submit] {
         margin: 0 auto;
         margin-bottom: 20px;
         margin-top: 20px;
-    }
-    #projects {
-        float: none;
-        width: 95%;
-        margin: 0 auto;
-        margin-top: 40px;
-        overflow: auto;
     }
     .work {
         float: left;
